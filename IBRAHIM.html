@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IBRAHIM T. JALLOH</title>
+
+<style type="text/css"> 
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body
+{
+    background: #234536;
+    color: beige;
+    padding: 40px;
+}
+.resume
+{
+    max-width: 800px;
+    margin: 0 auto;
+    background: #2c5446;
+    grid-template-columns: 200px 1fr;
+    gap: 40px;
+    position: relative;
+    min-width: 800px;
+    display: flex;
+}
+.name-section
+{
+    writing-mode: vertical-lr;
+    font-family: 'Courier New', Courier, monospace;
+    transform: rotate(180deg);
+    font-size: 55px;
+    font-weight: 900;
+    color: beige;
+    height: 100;
+    width: 100;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.name-section ::after
+{
+    content: 1;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    width: 2px;
+    height: 100%;
+    background-color: beige;
+
+}
+.content-section 
+{
+    padding: 20px;
+    margin-left: 20px;
+}
+.header
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+
+}
+.prfile-image
+{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+.name
+{
+    font-size: px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact-bar
+{
+    background: #a3c9a8;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.section 
+{
+    margin-bottom: 20px;
+}
+.section-title
+{
+    -webkit-flow-into: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+}
+.grid
+{
+    display: grid;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.skill-item
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.language-dots
+{
+    display: flex;
+    gap: 5px;
+}
+.dot
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    opacity: 0.2%;
+}
+.dot.filled 
+{
+    opacity: 1;
+}
+.arrow
+{
+    width: 20px;
+    height: 20px;
+    border-right: 2px solid green;
+}
+.grid-section
+{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 20px;
+}
+.grid-item
+{
+    background-color: #a3c9a8;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+
+
+</style>
+</head>
+<body>
+    
+<div class="resume">
+   <div class="name-section">
+     IBRAHIM T. JALLOH
+   </div>
+   <div class="content-section"> 
+    <div class="Header">
+        <img src="images/IMG_5638.JPG" width="200" atl="PROFILE" class="profile-image">
+        <div class="name">IBRAHIM T. JALLOH</div>
+        <p>I creat Visuals through my Imagination</p>
+        <div class="arrow"></div>
+    </div>
+    <div class="contact-bar"> tjallohibrahim@gmail.com--+23232276846</div>
+    <div class="grid">
+
+        <div class="section">
+            <h3 class="section title"> Profile</h3>
+            <p>Developer, Videographer, Editor, Writer </p>
+        </div>
+        <div class="Section">
+            <h3 class="section-title"> Education</h3>
+            <div class="skill-item">Henry fergusson 2018</div>
+            <div class="skill-item">Prince Of Wales 2021</div>
+            <div class="skill-item">Ipam 2024</div>
+        </div>
+        <div class="section">
+            <h3 class="section-title"> work experience</h3>
+            <div class="skill-item">Developer Relation</div>
+            <div class="skill-item">Christex Foundation</div>
+            <div class="skill-item">SKOOL Grind Sl</div>
+        </div>
+        
+        <div class="section">
+            <h3 class="section-title">Skills</h3>
+            <div class="skill-item">engineering</div>
+            <div class="skill-item">commuity bilding</div>
+            <div class="skill-item">event management</div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">language</h3>
+        <div class="skill-item">english</div>
+        <div class="skill-item">french</div>
+        <div class="skill-item">krio</div>
+
+        <div class="language-dots">
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+        </div>
+        
+        <section class="grid-section">
+            <h3 class="grid-title">SOFTWARES</h3>
+            <div class="grid-item">Capcut</div>
+            <div class="grid-item">premier pro</div>
+            <div class="grid-item">davinci resolve</div>
+            <div class="grid-item">light room</div>
+        </section>
+    
+    </div>
+    </div>
+   </div>
+</div>
+
+
+
+
+</body>
+</html>
